@@ -14,8 +14,9 @@ body {
 }
 
 .showcase {
-    background-image: url('Aula\ 4\ \(Background\ IMG\)\ Praia\ de\ São\ Miguel\ dos\ Milagres.png');
+    background-image: url(IMG01.jpg) ;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+
 }

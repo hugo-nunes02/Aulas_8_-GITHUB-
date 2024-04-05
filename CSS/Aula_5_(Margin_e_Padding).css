@@ -1,0 +1,51 @@
+@charset "utf-8";
+* {margin: 0;
+    padding: 0;
+    border: none;
+    top: 0;
+}
+
+body {background-color: #9481A3;}
+
+.Box-1 {background-color: rgba(77, 85, 26, 0.579);
+    text-align: center;
+text-decoration: overline; color: rgba(33, 38, 1, 0.782);
+border-top: 5px;
+border-right: 5px;
+border-bottom: 5px;
+border-left: 5px;
+border-width: 5px;
+border-bottom: 5px;
+border-top-style: dotted;
+border-right-style: dotted;
+border-left-style: dotted;
+
+
+padding: 20px;
+}
+
+.box-2 {background-color: rgba(77, 85, 26, 0.579);
+    text-align: center;
+text-decoration: overline; color: rgba(33, 38, 1, 0.782);
+border-top: 4px;
+border-right: 5px;
+border-bottom: 3px;
+border-left: 4px;
+border-width: 3px;
+border-bottom-width: 5px;
+border-bottom-style: dotted;
+border-left-style: dotted;
+border-right-style: dotted;
+padding: 20px;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.Botão {
+    
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: none;}
