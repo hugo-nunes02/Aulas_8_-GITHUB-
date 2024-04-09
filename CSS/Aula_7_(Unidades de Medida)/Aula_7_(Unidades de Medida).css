@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 21px;
+    margin: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #926239;
+    line-height: 1.8em;
+}
+
+section { 
+    font-size: 25px;
+    margin: 0.25em;
+    color: rgb(142, 29, 104);
+    line-height: 2.0em;
+    
+}
+
+.btn {
+    background-color: #4c0ab5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 1.5rem 1.5rem;
+    border: none;
+    width: 250px;
+    margin: auto;
+}
