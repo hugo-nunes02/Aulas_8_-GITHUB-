@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+h1 {
+    color: rgba(137, 43, 226, 0.866);
+    text-align: center;
+}
+
+p {
+    color: #581b90;
+    display: inline;
+}
+
+
+
+div {
+    margin: 5px;
+    width: 600px;
+    height: 250px;
+}
+
+.esquerda {
+    margin: 70px;
+    float: left;
+    border: 5px;
+    border-color: blue;
+    background: rgba(201, 56, 214, 0.359);
+    clear: none;
+    box-sizing: border-box;
+
+
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudoelementos</title>
+    <style>
+        h1::before {
+            content: "Leia isso - ";
+        }
+
+        h1::after {
+            content: " - Leia Mais";
+        }
+
+        p::first-letter {
+            font-size: 200%;
+           color: #8A2BE2;}
+
+           .first-line {
+ background-color: yellow;
+ }
+    </style>
+</head>
+
+<body>
+    <h1>Meu nome é Donald</h1>
+    <h1>Eu moro em in Ducksburg</h1>
+
+
+    <p >Meu nome é Donald.</p>
+ <p>Eu moro em Duckburg.</p>
+ <p>Meu melhor amigo é o Mickey.</p>
+
+ <p class="first-line">Lorem ipsum dolor sit amet consectetur, adipisicing
+    elit. Veritatis dolores vero consectetur ea rem similique
+    quas sint nostrum error tempore.</p>
+</body>
+
+</html>
