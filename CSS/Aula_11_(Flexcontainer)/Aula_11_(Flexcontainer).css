@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+    background-color: orange;
+    border: 1px saddlebrown solid;
+    margin-right: 550px;
+}
+
+.container1>* {
+    border-radius: 1px;
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 10px;;
+    text-align: center;
+    flex-shrink: 1;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.container2>* {
+    border-radius: 1px;
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 10px;;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    align-items: baseline;
+}
+
+.container2 div:nth-child(2) {
+    font-size: 3rem;
+    order: -1;
+}
+
+.container2 div:nth-child(4) {font-size: 6rem;}
