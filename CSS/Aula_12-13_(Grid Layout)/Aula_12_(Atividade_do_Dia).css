@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+}
+
+.Grid-1 {
+    background-color: rgba(254, 251, 39, 0.661);
+    text-align: center;
+    padding: 15px;
+}
+
+.Grid-2 {
+    background-color: rgba(117, 11, 11, 0.661);
+    align-items: center;
+    padding: 15px;
+}
+
+.Grid-3 {
+    background-color: rgba(176, 108, 14, 0.697);
+    text-align: center;
+    padding: 15px;
+}
+
+.Grid-4 {
+    background-color: rgba(254, 79, 196, 0.726);
+    text-align: center;
+    padding: 15px;
+}
+
+.Grid-5 {
+    background-color: rgba(39, 254, 150, 0.661);
+    text-align: center;
+    padding: 15px;
+}
+
+.Grid-6 {
+    background-color: rgba(38, 9, 69, 0.661);
+    text-align: center;
+    padding: 15px;
+}
+
+.Grid-7 {
+    background-color: rgba(237, 218, 8, 0.911);
+    text-align: center;
+    padding: 15px;
+    order: 1;
+}
+

@@ -1,0 +1,72 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+h1 {
+    text-align: center;
+    color: #060606;
+   
+}
+
+.box1 {
+    background-color: rgba(99, 103, 107, 0.534);
+    grid-row: 1/3;
+    text-align: center;
+    grid-column: 1/2;
+    border-radius: 20px;
+    background-image: url(doutor\ octopus.jfif);
+    background-size: cover;
+
+}
+
+.box2 {
+    text-align: center;
+    background-color: rgba(247, 231, 51, 0.789);
+    border-radius: 20px;
+    background-image: url(electro.jfif);
+    background-size: cover;
+
+}
+
+.box3 {
+    text-align: center;
+    background-color: rgba(183, 51, 3, 0.856);
+grid-row: 2/4;
+grid-column: 2/4;
+border-radius: 20px;
+background-image: url(kraven.jfif);
+background-size: cover;
+
+}
+
+.box4 {
+    text-align: center;
+    background-color:#f5f5dc;
+    grid-row: 4/6;
+    grid-column: 2/4;
+    border-radius: 20px;
+
+}
+
+.box5 {
+    text-align: center;
+    background-color: green;
+    border-radius: 20px;
+ background-image: url(abutre.webp);
+ background-size: cover;
+ color: white;
+ 
+}
+
+.box6 { text-align: center;
+background-color: rgb(2, 89, 44);
+border-radius: 20px;
+background-image: url(Mysterio.jfif);
+background-size: cover;
+
+grid-row: 3/6;}
