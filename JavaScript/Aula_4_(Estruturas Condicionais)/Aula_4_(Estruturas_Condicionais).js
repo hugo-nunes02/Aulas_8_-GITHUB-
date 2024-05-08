@@ -36,9 +36,9 @@ if(e===10)console.log('e é o número 10')
     const g = 11;
 
     if(f > 5 ||g > 10){ console.log ('Condição é ${f > 5|| g > 10}');
-console.log('f é maior que 5 OU g é maior que 10')
+console.log('f é maior que 5 OU g é menor que 10')
 }
-else{console.log('f é maior que 5 OU g é maior que 10');}
+else{console.log('f não é maior que 5 OU g é menor que 10');}
 
 if(f>5 && g>10) console.log('f é maior que 5 E g é maior que 10');
 
