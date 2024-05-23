@@ -1,15 +1,14 @@
-function peso() {
-var valor = document.getElementById('weight').value;
-console.log('weight:', valor);
+function EnviarForm(){
+
+let altura = document.getElementById('altura').value;
+let nome = document.getElementById('nome').value;
+let peso = document.getElementById('peso').value;
+const x = (altura * altura);
+const IMC = (altura/x);;
+
+console.log('Sua altura é:'+ altura);
+console.log('Seu peso é:'+ peso);
+console.log('Seu nome é:'+ nome);
+console.log('Seu IMC é:'+ IMC)
 }
-console.log ("a multiplicação de peso: ${weight} e altura:${height} resultará no IMC:{(height **2) / weight }")
-
-document.getElementById('name')
-document.write('name')
-
-document.getElementById('height')
-document.write('height')
-
-document.getElementById('weight')
-document.write('weight')
 
